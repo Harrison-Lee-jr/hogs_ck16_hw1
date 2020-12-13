@@ -1,0 +1,98 @@
+{
+  "uid" : "a984012997f4371",
+  "name" : "test_add2[bigint]",
+  "fullName" : "test_calc2.TestCalc2#test_add2",
+  "historyId" : "404dda32d1199ea1312a303536bb4982",
+  "time" : {
+    "start" : 1607876100226,
+    "stop" : 1607876100226,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "cal2",
+    "time" : {
+      "start" : 1607876100157,
+      "stop" : 1607876100157,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "cal2::0",
+    "time" : {
+      "start" : 1607876100248,
+      "stop" : 1607876100248,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "add"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=4)"
+  }, {
+    "name" : "suite",
+    "value" : "test_calc2"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCalc2"
+  }, {
+    "name" : "host",
+    "value" : "jinrongdeMacBook-Air.local"
+  }, {
+    "name" : "thread",
+    "value" : "44268-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_calc2"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "a",
+    "value" : "45"
+  }, {
+    "name" : "b",
+    "value" : "45"
+  }, {
+    "name" : "expect",
+    "value" : "90"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "add", "run(order=4)" ]
+  },
+  "source" : "a984012997f4371.json",
+  "parameterValues" : [ "45", "45", "90" ]
+}

@@ -1,0 +1,98 @@
+{
+  "uid" : "653d94f36613b4d7",
+  "name" : "test_div2[minus]",
+  "fullName" : "test_calc2.TestCalc2#test_div2",
+  "historyId" : "f1838c12e23d8ed36c3d6a4aad0ef8f8",
+  "time" : {
+    "start" : 1607876100163,
+    "stop" : 1607876100163,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "cal2",
+    "time" : {
+      "start" : 1607876100157,
+      "stop" : 1607876100157,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "cal2::0",
+    "time" : {
+      "start" : 1607876100248,
+      "stop" : 1607876100248,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "run(order=1)"
+  }, {
+    "name" : "tag",
+    "value" : "div"
+  }, {
+    "name" : "suite",
+    "value" : "test_calc2"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCalc2"
+  }, {
+    "name" : "host",
+    "value" : "jinrongdeMacBook-Air.local"
+  }, {
+    "name" : "thread",
+    "value" : "44268-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_calc2"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "a",
+    "value" : "99"
+  }, {
+    "name" : "b",
+    "value" : "3"
+  }, {
+    "name" : "expect",
+    "value" : "33"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "div", "run(order=1)" ]
+  },
+  "source" : "653d94f36613b4d7.json",
+  "parameterValues" : [ "99", "3", "33" ]
+}
